@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">136,068</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test</td><td><a href="#m0">configAM</a></td><td rowspan="1">1731300325098</td><td rowspan="1">282</td></tr><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test</td><td><a href="#m1">createorganTest</a></td><td rowspan="1">1731300281694</td><td rowspan="1">10442</td></tr><tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test</td><td><a href="#m2">configAC</a></td><td rowspan="1">1731300325409</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.comcast.crm.contacttest.CreateContact_Org_SupDate_Test</td><td><a href="#m3">createContactTest</a></td><td rowspan="1">1731300341470</td><td rowspan="1">10859</td></tr><tr class="passedeven"><td><a href="#m4">createContactWithOrgTest</a></td><td rowspan="1">1731300357175</td><td rowspan="1">22135</td></tr><tr class="passedeven"><td><a href="#m5">createcontactwithsupportDateTest</a></td><td rowspan="1">1731300384137</td><td rowspan="1">11765</td></tr><tr class="passedodd"><td rowspan="2">com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test</td><td><a href="#m6">createorganWithIndTest</a></td><td rowspan="1">1731300296763</td><td rowspan="1">11458</td></tr><tr class="passedodd"><td><a href="#m7">createorgwithphonenoTest</a></td><td rowspan="1">1731300313215</td><td rowspan="1">11881</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test#configAM</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">==== Logout AM =====</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable: element has zero size
+  (Session info: MicrosoftEdge=130.0.2849.68)
+Build info: version: &apos;4.12.0&apos;, revision: &apos;249f2a7d1b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6a3c6a82bc95a5942743f49e0d9caa18, clickElement {id=f.74BA0D3A7278B19855E7EB48C0A2C25E.d.960288A55520FC7B77E92CF1AD9D0EF8.e.1754}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60191}, msedge: {msedgedriverVersion: 130.0.2849.80 (bbf5e2881b22..., userDataDir: C:\Users\BHIMAS~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60191/devtoo..., se:cdpVersion: 130.0.2849.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (6a3c6a82bc95a5942743f49e0d9caa18)] -&gt; link text: Sign Out]
+Session ID: 6a3c6a82bc95a5942743f49e0d9caa18
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at com.comcast.crm.objectrepositoryutility.HomePage.logout(HomePage.java:100)
+	at com.comcast.crm.basetest.BaseClass_practice.configAM(BaseClass_practice.java:88)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 45 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test#createorganTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">====>createorganTest<=======START=====</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.comcast.crm.assertUtility.assertUtility.hardAssert(assertUtility.java:21)
+	at com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test.createorganTest(CreateOrg_Indu_Phone_Test.java:51)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test#configAC</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.comcast.crm.contacttest.CreateContact_Org_SupDate_Test#createContactTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">====>createContactTest<=======START=====<br/>====>createContactTest<=======END=====</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.comcast.crm.contacttest.CreateContact_Org_SupDate_Test#createContactWithOrgTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">====>createContactWithOrgTest<=======START=====<br/>====>createContactWithOrgTest<=======END=====</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.comcast.crm.contacttest.CreateContact_Org_SupDate_Test#createcontactwithsupportDateTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">====>createcontactwithsupportDateTest<=======START=====<br/>====>createcontactwithsupportDateTest<=======END=====</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test#createorganWithIndTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">====>createorganWithIndTest<=======START=====<br/>Energy<br/>Press<br/>====>createorganWithIndTest<=======END=====</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test#createorgwithphonenoTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">====>createorgwithphonenoTest<=======START=====<br/>phonenumberDATA<br/>9898989898<br/>9898989898<br/>====>createorgwithphonenoTest<=======END=====</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
