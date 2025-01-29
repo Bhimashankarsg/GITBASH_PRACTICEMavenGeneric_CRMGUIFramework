@@ -62,6 +62,7 @@ public class BaseClass_practice {
 
 		String BROWSER = System.getProperty("browser","edge");
 		driver = wLib.launchbrowser(BROWSER);
+		wLib.screenrecord();
 		sdriver = driver;
 		UtilityClassObject.setDriver(driver);
 	}

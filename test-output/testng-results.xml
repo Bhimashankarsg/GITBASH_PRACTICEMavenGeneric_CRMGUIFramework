@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Report configuration]]>
+    </line>
     <line>
       <![CDATA[=== connect to DB , report config  BS ===]]>
     </line>
@@ -9,6 +12,48 @@
     </line>
     <line>
       <![CDATA[=== Login to application BM=====]]>
+    </line>
+    <line>
+      <![CDATA[====>createorganTest<=======START=====]]>
+    </line>
+    <line>
+      <![CDATA[==== Logout AM =====]]>
+    </line>
+    <line>
+      <![CDATA[=== Login to application BM=====]]>
+    </line>
+    <line>
+      <![CDATA[====>createorganWithIndTest<=======START=====]]>
+    </line>
+    <line>
+      <![CDATA[Energy]]>
+    </line>
+    <line>
+      <![CDATA[Press]]>
+    </line>
+    <line>
+      <![CDATA[====>createorganWithIndTest<=======END=====]]>
+    </line>
+    <line>
+      <![CDATA[==== Logout AM =====]]>
+    </line>
+    <line>
+      <![CDATA[=== Login to application BM=====]]>
+    </line>
+    <line>
+      <![CDATA[====>createorgwithphonenoTest<=======START=====]]>
+    </line>
+    <line>
+      <![CDATA[phonenumberDATA]]>
+    </line>
+    <line>
+      <![CDATA[9898989898]]>
+    </line>
+    <line>
+      <![CDATA[9898989898]]>
+    </line>
+    <line>
+      <![CDATA[====>createorgwithphonenoTest<=======END=====]]>
     </line>
     <line>
       <![CDATA[==== Logout AM =====]]>
@@ -20,43 +65,52 @@
       <![CDATA[=== close DB, Report Backup AS ====]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-11-04T16:08:17 IST" name="Default suite" finished-at="2024-11-04T16:12:06 IST" duration-ms="229346">
+  <suite started-at="2024-11-12T10:45:12 IST" name="Default suite" finished-at="2024-11-12T10:47:11 IST" duration-ms="118611">
     <groups>
+      <group name="regressiontest">
+        <method signature="CreateOrg_Indu_Phone_Test.createorganWithIndTest()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test@10683d9d]" name="createorganWithIndTest" class="com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test"/>
+        <method signature="CreateOrg_Indu_Phone_Test.createorgwithphonenoTest()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test@10683d9d]" name="createorgwithphonenoTest" class="com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test"/>
+      </group> <!-- regressiontest -->
       <group name="smoketest">
-        <method signature="CreateOrg_Indu_Phone_Test.createorganTest()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test@72cc7e6f]" name="createorganTest" class="com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test"/>
+        <method signature="CreateOrg_Indu_Phone_Test.createorganTest()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test@10683d9d]" name="createorganTest" class="com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test"/>
       </group> <!-- smoketest -->
     </groups>
-    <test started-at="2024-11-04T16:08:17 IST" name="Default test" finished-at="2024-11-04T16:12:06 IST" duration-ms="229346">
+    <test started-at="2024-11-12T10:45:12 IST" name="Default test" finished-at="2024-11-12T10:47:11 IST" duration-ms="118611">
       <class name="com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test@72cc7e6f]" started-at="2024-11-04T16:07:08 IST" name="configBS" finished-at="2024-11-04T16:08:12 IST" duration-ms="64106" status="PASS">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test@10683d9d]" started-at="2024-11-12T10:45:12 IST" name="configBS" finished-at="2024-11-12T10:45:12 IST" duration-ms="827" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=== connect to DB , report config  BS ===]]>
             </line>
           </reporter-output>
         </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test@72cc7e6f]" started-at="2024-11-04T16:08:17 IST" name="configBC" finished-at="2024-11-04T16:09:04 IST" duration-ms="46396" status="PASS">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test@10683d9d]" started-at="2024-11-12T10:45:12 IST" name="configBC" finished-at="2024-11-12T10:45:23 IST" duration-ms="11033" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=====Launch Browser BC=======]]>
             </line>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test@72cc7e6f]" started-at="2024-11-04T16:09:11 IST" name="configBM" finished-at="2024-11-04T16:09:50 IST" duration-ms="39883" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test@10683d9d]" started-at="2024-11-12T10:45:23 IST" name="configBM" finished-at="2024-11-12T10:45:51 IST" duration-ms="27700" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=== Login to application BM=====]]>
             </line>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="createorganTest()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test@72cc7e6f]" started-at="2024-11-04T16:09:58 IST" name="createorganTest" finished-at="2024-11-04T16:10:16 IST" duration-ms="17774" status="FAIL">
-          <exception class="java.lang.NullPointerException">
+        <test-method signature="createorganTest()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test@10683d9d]" started-at="2024-11-12T10:45:51 IST" name="createorganTest" finished-at="2024-11-12T10:46:29 IST" duration-ms="37747" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "com.comcast.crm.generic.webdriverutility.UtilityClassObject.getTest()" is null]]>
+              <![CDATA[expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "com.comcast.crm.generic.webdriverutility.UtilityClassObject.getTest()" is null
-at com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test.createorganTest(CreateOrg_Indu_Phone_Test.java:23)
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at com.comcast.crm.assertUtility.assertUtility.hardAssert(assertUtility.java:21)
+at com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test.createorganTest(CreateOrg_Indu_Phone_Test.java:51)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -87,25 +141,91 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[====>createorganTest<=======START=====]]>
+            </line>
           </reporter-output>
         </test-method> <!-- createorganTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test@72cc7e6f]" started-at="2024-11-04T16:10:16 IST" name="configAM" finished-at="2024-11-04T16:11:41 IST" duration-ms="85454" status="PASS">
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test@10683d9d]" started-at="2024-11-12T10:46:29 IST" name="configAM" finished-at="2024-11-12T10:46:33 IST" duration-ms="3391" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[==== Logout AM =====]]>
             </line>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test@72cc7e6f]" started-at="2024-11-04T16:11:58 IST" name="configAC" finished-at="2024-11-04T16:12:04 IST" duration-ms="6783" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test@10683d9d]" started-at="2024-11-12T10:46:33 IST" name="configBM" finished-at="2024-11-12T10:46:36 IST" duration-ms="3464" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=== Login to application BM=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createorganWithIndTest()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test@10683d9d]" started-at="2024-11-12T10:46:36 IST" name="createorganWithIndTest" finished-at="2024-11-12T10:46:49 IST" duration-ms="13319" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[====>createorganWithIndTest<=======START=====]]>
+            </line>
+            <line>
+              <![CDATA[Energy]]>
+            </line>
+            <line>
+              <![CDATA[Press]]>
+            </line>
+            <line>
+              <![CDATA[====>createorganWithIndTest<=======END=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createorganWithIndTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test@10683d9d]" started-at="2024-11-12T10:46:49 IST" name="configAM" finished-at="2024-11-12T10:46:52 IST" duration-ms="2274" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==== Logout AM =====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test@10683d9d]" started-at="2024-11-12T10:46:52 IST" name="configBM" finished-at="2024-11-12T10:46:56 IST" duration-ms="3843" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=== Login to application BM=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createorgwithphonenoTest()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test@10683d9d]" started-at="2024-11-12T10:46:56 IST" name="createorgwithphonenoTest" finished-at="2024-11-12T10:47:08 IST" duration-ms="12313" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[====>createorgwithphonenoTest<=======START=====]]>
+            </line>
+            <line>
+              <![CDATA[phonenumberDATA]]>
+            </line>
+            <line>
+              <![CDATA[9898989898]]>
+            </line>
+            <line>
+              <![CDATA[9898989898]]>
+            </line>
+            <line>
+              <![CDATA[====>createorgwithphonenoTest<=======END=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createorgwithphonenoTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test@10683d9d]" started-at="2024-11-12T10:47:08 IST" name="configAM" finished-at="2024-11-12T10:47:10 IST" duration-ms="1759" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==== Logout AM =====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test@10683d9d]" started-at="2024-11-12T10:47:10 IST" name="configAC" finished-at="2024-11-12T10:47:11 IST" duration-ms="1336" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[==== close the Browser AC======]]>
             </line>
           </reporter-output>
         </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test@72cc7e6f]" started-at="2024-11-04T16:12:14 IST" name="configAS" finished-at="2024-11-04T16:12:17 IST" duration-ms="2729" status="PASS">
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test@10683d9d]" started-at="2024-11-12T10:47:11 IST" name="configAS" finished-at="2024-11-12T10:47:11 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=== close DB, Report Backup AS ====]]>

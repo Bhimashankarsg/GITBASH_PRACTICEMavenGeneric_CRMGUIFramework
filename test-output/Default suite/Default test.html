@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Nov 04 16:08:17 IST 2024</td>
+<td>Started on:</td><td>Tue Nov 12 10:45:12 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>229 seconds (229346 ms)</td>
+<tr><td>Total time:</td><td>118 seconds (118611 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,9 +76,21 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test.createorganTest()'><b>createorganTest</b><br>Test class: com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)&quot; because the return value of &quot;com.comcast.crm.generic.webdriverutility.UtilityClassObject.getTest()&quot; is null
-	at com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test.createorganTest(CreateOrg_Indu_Phone_Test.java:23)
+<td title='com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test.createorganTest()'><b>createorganTest</b><br>Test class: com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test<br/>
+<a href="#Output-1497992596" onClick='toggleBox("Output-1497992596", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1497992596" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1497992596">
+====>createorganTest<=======START=====<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.comcast.crm.assertUtility.assertUtility.hardAssert(assertUtility.java:21)
+	at com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test.createorganTest(CreateOrg_Indu_Phone_Test.java:51)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -107,9 +119,14 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace438263665", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace438263665'><pre>java.lang.NullPointerException: Cannot invoke &quot;com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)&quot; because the return value of &quot;com.comcast.crm.generic.webdriverutility.UtilityClassObject.getTest()&quot; is null
-	at com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test.createorganTest(CreateOrg_Indu_Phone_Test.java:23)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1497992596", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1497992596'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.comcast.crm.assertUtility.assertUtility.hardAssert(assertUtility.java:21)
+	at com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test.createorganTest(CreateOrg_Indu_Phone_Test.java:51)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -139,8 +156,48 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>17</td>
-<td>com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test@72cc7e6f</td></tr>
+<td>37</td>
+<td>com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test@10683d9d</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test.createorgwithphonenoTest()'><b>createorgwithphonenoTest</b><br>Test class: com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test<br/>
+<a href="#Output-293618119" onClick='toggleBox("Output-293618119", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-293618119" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-293618119">
+====>createorgwithphonenoTest<=======START=====<br/>
+phonenumberDATA<br/>
+9898989898<br/>
+9898989898<br/>
+====>createorgwithphonenoTest<=======END=====<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test@10683d9d</td></tr>
+<tr>
+<td title='com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test.createorganWithIndTest()'><b>createorganWithIndTest</b><br>Test class: com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test<br/>
+<a href="#Output-1221274995" onClick='toggleBox("Output-1221274995", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1221274995" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1221274995">
+====>createorganWithIndTest<=======START=====<br/>
+Energy<br/>
+Press<br/>
+====>createorganWithIndTest<=======END=====<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>com.comcast.crm.orgtest.CreateOrg_Indu_Phone_Test@10683d9d</td></tr>
 </table><p>
 </body>
 </html>
